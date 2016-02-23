@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.frameworks   = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   spec.ios.library = 'z', 'iconv', 'stdc++', 'sqlite3'
   spec.source = { :git => 'https://github.com/onlyyoujack/OpenSDK.git', :tag => '2.9.5'}
-  s.resource     = 'OpenSDK/TencentOpenApi_IOS_Bundle.bundle'
+  spec.resource     = 'OpenSDK/TencentOpenApi_IOS_Bundle.bundle'
   spec.preserve_paths      = 'OpenSDK/TencentOpenAPI.framework'
   spec.public_header_files = 'OpenSDK/TencentOpenAPI.framework/Headers'
   spec.vendored_frameworks = 'OpenSDK/TencentOpenAPI.framework'
